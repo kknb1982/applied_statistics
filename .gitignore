@@ -77,7 +77,6 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-.problems-Duncan-PC.ipynb
 
 # IPython
 profile_default/
