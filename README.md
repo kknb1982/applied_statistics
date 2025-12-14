@@ -14,6 +14,9 @@ This repository contains all the work relating to the Atlantic Technological Uni
 * [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb): Main notebook with four problems, relevant plots and analysis.
 * [requirements.txt](https://github.com/kknb1982/applied_statistics/blob/main/requirements.txt): Python dependencies required for running the code in the problems notebook.
 * [.gitignore](https://github.com/kknb1982/applied_statistics/blob/main/.gitignore): Standard list of files to be ignored for Python and Jupyter notebooks.
+* [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb): Main notebook with four problems, relevant plots and analysis.
+* [requirements.txt](https://github.com/kknb1982/applied_statistics/blob/main/requirements.txt): Python dependencies required for running the code in the problems notebook.
+* [.gitignore](https://github.com/kknb1982/applied_statistics/blob/main/.gitignore): Standard list of files to be ignored for Python and Jupyter notebooks.
 
 ## How to install and run the project
 ### Prerequisites
@@ -42,14 +45,34 @@ code problems.ipynb
 # OR open with Jupyter
 jupyter notebook problems.ipynb
 ```
+```
+# Clone and enter
+git clone https://github.com/kknb1982/applied_statistics.git
+cd applied_statistics
+
+# Install dependencies
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+
+# Open the notebook in VS Code
+code problems.ipynb
+
+# OR open with Jupyter
+jupyter notebook problems.ipynb
+```
 
 ## How to use the project
+Once the environment is set up, all the code for the problems, explanations and links to further resources is contained within [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb). The code has been pre-run. The random generators have not been seeded, so re-running the cells produce different results, making it is easy to explore multiple outcomes.
 
 ## Credits
 Once the environment is set up, all the code for the problems, explanations and links to further resources is contained within [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb). The code has been pre-run. The random generators have not been seeded, so re-running the cells produce different results, making it is easy to explore multiple outcomes.
 
 **Optional:** For reproducible results, add `np.random.seed(42)` at the start of the notebook.
 
+## Troubleshooting
+- **"Module not found" error**: Run `python -m pip install -r requirements.txt`
+- **Kernel issues in VS Code**: Command Palette → "Python: Select Interpreter"
+- **Plots not displaying**: Ensure `%matplotlib inline` is in the first cell
 ## Troubleshooting
 - **"Module not found" error**: Run `python -m pip install -r requirements.txt`
 - **Kernel issues in VS Code**: Command Palette → "Python: Select Interpreter"
