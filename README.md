@@ -1,7 +1,7 @@
 # Applied Statistics Winter 2025/26
 Author: Kirstin Barnett
 
-Hands-on notebook covering core statistical concepts. 
+Hands-on notebook covering core statistical concepts.
 
 ## Purpose
 This repository contains all the work relating to the Atlantic Technological University module Applied Statistics run in Winter 2025/26. The main file is a Jupyter notebook called [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb) that works through four problems set out in the module:
@@ -45,21 +45,6 @@ code problems.ipynb
 # OR open with Jupyter
 jupyter notebook problems.ipynb
 ```
-```
-# Clone and enter
-git clone https://github.com/kknb1982/applied_statistics.git
-cd applied_statistics
-
-# Install dependencies
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-
-# Open the notebook in VS Code
-code problems.ipynb
-
-# OR open with Jupyter
-jupyter notebook problems.ipynb
-```
 
 ## How to use the project
 Once the environment is set up, all the code for the problems, explanations and links to further resources is contained within [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb). The code has been pre-run. The random generators have not been seeded, so re-running the cells produce different results, making it is easy to explore multiple outcomes.
@@ -72,8 +57,6 @@ Once the environment is set up, all the code for the problems, explanations and 
 ## Troubleshooting
 - **"Module not found" error**: Run `python -m pip install -r requirements.txt`
 - **Kernel issues in VS Code**: Command Palette → "Python: Select Interpreter"
-- **Plots not displaying**: Ensure `%matplotlib inline` is in the first cell
-## Troubleshooting
-- **"Module not found" error**: Run `python -m pip install -r requirements.txt`
-- **Kernel issues in VS Code**: Command Palette → "Python: Select Interpreter"
-- **Plots not displaying**: Ensure `%matplotlib inline` is in the first cell
+- **Plots not displaying**: Ensure `%matplotlib inline` is in the first cell.
+
+# End
