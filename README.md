@@ -1,19 +1,16 @@
 # Applied Statistics Winter 2025/26
 Author: Kirstin Barnett
 
-Hands-on notebook covering core statistical concepts.
+Hands-on notebook covering core statistical concepts from ATU's Applied Statistics Module.
 
 ## Purpose
-This repository contains all the work relating to the Atlantic Technological University module Applied Statistics run in Winter 2025/26. The main file is a Jupyter notebook called [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb) that works through four problems set out in the module:
+This repository contains all my work relating to the problems set in the Atlantic Technological University module Applied Statistics run in Winter 2025/26. The main file is a Jupyter notebook called [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb) that works through four problems set out in the module:
 1. Extending the lady tasting tea experiment - looks at combinations, permutations and null hypotheses.
 2. Normal distribution - looks at what is a normal distribution and the effects of sample size.
-3. t-tests - investigates a way of statistically shows a difference in means between datasets and how often the null hypothesis is rejected incorrectly with different intervals between the means.
-4. ANOVA - demonstrates ANOVA and why it is preferred over running several t-tests.
+3. t-tests - investigates a way of statistically showing a difference in means between datasets and how often the null hypothesis is rejected incorrectly with different intervals between the means.
+4. ANOVA - demonstrates ANOVA and why it is preferred over running multiple t-tests.
 
 ## Repository contents
-* [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb): Main notebook with four problems, relevant plots and analysis.
-* [requirements.txt](https://github.com/kknb1982/applied_statistics/blob/main/requirements.txt): Python dependencies required for running the code in the problems notebook.
-* [.gitignore](https://github.com/kknb1982/applied_statistics/blob/main/.gitignore): Standard list of files to be ignored for Python and Jupyter notebooks.
 * [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb): Main notebook with four problems, relevant plots and analysis.
 * [requirements.txt](https://github.com/kknb1982/applied_statistics/blob/main/requirements.txt): Python dependencies required for running the code in the problems notebook.
 * [.gitignore](https://github.com/kknb1982/applied_statistics/blob/main/.gitignore): Standard list of files to be ignored for Python and Jupyter notebooks.
@@ -47,10 +44,7 @@ jupyter notebook problems.ipynb
 ```
 
 ## How to use the project
-Once the environment is set up, all the code for the problems, explanations and links to further resources is contained within [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb). The code has been pre-run. The random generators have not been seeded, so re-running the cells produce different results, making it is easy to explore multiple outcomes.
-
-## Credits
-Once the environment is set up, all the code for the problems, explanations and links to further resources is contained within [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb). The code has been pre-run. The random generators have not been seeded, so re-running the cells produce different results, making it is easy to explore multiple outcomes.
+Once the environment is set up, all the code for the problems, explanations and links to further resources is contained within [problems.ipynb](https://github.com/kknb1982/applied_statistics/blob/main/problems.ipynb). The code has been pre-run. The random generators have not been seeded, so re-running the cells will produce different results, making it is easy to explore multiple outcomes.
 
 **Optional:** For reproducible results, add `np.random.seed(42)` at the start of the notebook.
 
@@ -58,5 +52,8 @@ Once the environment is set up, all the code for the problems, explanations and 
 - **"Module not found" error**: Run `python -m pip install -r requirements.txt`
 - **Kernel issues in VS Code**: Command Palette → "Python: Select Interpreter"
 - **Plots not displaying**: Ensure `%matplotlib inline` is in the first cell.
+
+## Credits
+This work is based on the lecture material and supporting notebooks provided by the module lecturer.
 
 # End
